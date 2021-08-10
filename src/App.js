@@ -47,7 +47,7 @@ const App = () => {
 
   return (
     <div className='App'>
-      <Posts />
+      <Posts posts={ posts } likePost={likePost()}/>
       <SearchBar />
     </div>
   );
